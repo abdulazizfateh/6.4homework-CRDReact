@@ -18,7 +18,7 @@ const Users = ({ users, deleteUser }) => {
                         <p className='p-[12px] text-[14px] text-[#8b919a] border-b border-[#3d444d] line-clamp-1 truncate'>ID: <span className='text-white'>{user.id}</span></p>
                         <p className='p-[12px] text-[14px] text-[#8b919a] border-b border-[#3d444d] line-clamp-1 truncate'>Full Name: <span className='text-white'>{user.fullName}</span></p>
                         <p className='p-[12px] text-[14px] text-[#8b919a] border-b border-[#3d444d] line-clamp-1 truncate'>Email: <span className='text-white'>{user.email}</span></p>
-                        <p className='p-[12px] text-[14px] text-[#8b919a] border-b border-[#3d444d] line-clamp-1 truncate'>Number: <span className='text-white'>{user.number}</span></p>
+                        <p className='p-[12px] text-[14px] text-[#8b919a] line-clamp-1 truncate'>Number: <span className='text-white'>{user.number}</span></p>
                     </div>
                 ))
             }
